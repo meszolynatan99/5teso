@@ -1,0 +1,79 @@
+@import url(http://fonts.googleapis.com/css?family=Petit+Formal+Script|Nosifer|Flavors&subset=latin,latin-ext);
+
+body{
+    margin: 0;
+    font-family: arial, sans-serif;
+
+    display: block;
+    border: 0;
+    margin: 5px auto;
+}
+.kep_hely{
+    text-align: center;
+    font-family: verdana, sans-serif;
+    font-size: 10px;
+}
+.kep_hely.galeria{
+    float: left;
+    margin: 2px;
+    padding: 5px;
+}
+
+
+#felso{
+    width: 960px;
+    height: 100px;
+    background: url("pizzahatter1.png");
+    
+}
+#kozep{
+    width: 960px;
+    min-height: 494px;
+    background: url("pizzahatter2.png") repeat-y;
+}
+#oldal{
+    width: 140px;
+    padding: 10px;
+    float: left;
+}
+#tartalom{
+    width: 774px;
+    padding: 10px;
+    float: left;
+    border: 3px solid #3199a7;
+    min-height: 494px;
+}
+#also{
+    clear: both;
+    width: 960px;
+    height: 50px;
+    background-color: #4188e6;
+    color: #666;
+    line-height: 40px;
+    text-align: center;
+}
+#felso h1{
+    font-family: 'Petit Formal Script', cursive;
+    font-size: 80px;
+    margin: 0;
+    line-height: 80px;
+    text-align: center;
+    color: yellow;
+}
+.clear{
+    clear: both;
+}
+#oldal a,
+#oldal a:link,
+#oldal a:visited{
+    text-decoration: none;
+    color: rgb(12, 17, 22)
+}
+#oldal a:hover{
+    background-color: yellow;
+    color: red;
+}
+#tartalom h2{
+    font-size: 24px;
+    text-align: center;
+}
